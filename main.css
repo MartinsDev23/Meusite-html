@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+header  {
+    padding: 30px;
+    color: red;
+    font-weight: 900;
+}
+
+header h1 {
+    font-family: 'Bungee', cursive;
+    font-size: 50px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+header li a {
+    color: red;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+header li {
+    list-style: none;
+    display: inline;
+}
+
+h2 {
+    margin-top: 50px;
+    margin-left: 100px;
+    color: red;
+    font-weight: normal;
+    font-size: 30px;
+    font-family: 'Bungee', cursive;
+}
+
+
+.artigopai  img {
+    height: 350px;
+    width: 500px;
+    justify-content: space-between;
+}
+
+h3 {
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+
+.artigopai {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 80px;
+}
+
+.artigopai p {
+    color: white;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
+    width: 500px;
+}
+
+article p {
+    height: 100px;
+}
+
+section .artigopai a {
+    margin-top: 10px;
+    display: flex;
+    text-decoration: none;
+    padding: 10px;
+    background-color: red;
+    color: black;
+    border-radius: 10px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+section .artigopai a:hover {
+    background-color: black;
+    color: red;
+}
+
+.formulario {
+    padding: 10px;
+    width: 300px;
+    margin-left: 80px;
+    font-weight: bold;
+    background-image: url(./images/corinthians-se-manifesta-contra-a-homofobia-1684333565546_v2_615x300.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+
+form input {
+    color: white;
+    margin-top: 10px;
+    background-color: red;
+}
+
+button {
+    color: black;
+    margin-top: 25px;  
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    color: red;
+    background-color: black;
+}
+
+h4 {
+    color: red;
+    margin-left: 60px;
+    font-size: 25px;
+    font-family: 'Bungee', cursive;
+}
+
+#registro h3 {
+    margin-left: 80px;
+    color: white;
+}
+
+label {
+    color: red;
+    margin-right: 10px;
+    font-family: 'Bungee', cursive;
+}
+
+.contato img {
+    height: 30px;
+    margin-left: 40px;
+}
+
+.contato a {
+    font-weight: bold;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+
+.contato {
+    margin-top: 25px;
+    margin-left: 40px;
+    display: flex;
+}
+
+#facebook {
+    color: rgb(54, 54, 250);
+}
+
+#instagram {
+    color: rgb(212, 105, 212);
+}
+
+#facebook:hover {
+    color: rgb(16, 16, 109);
+    cursor: pointer;
+}
+
+#instagram:hover {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+footer .container {
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
